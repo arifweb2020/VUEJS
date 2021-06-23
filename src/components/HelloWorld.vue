@@ -1,13 +1,18 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
-   
+   <Header />
   </div>
 </template>
 
 <script>
+import Header from './Header.vue'
 export default {
   name: 'HelloWorld',
+  components: {
+    Header
+  },
+
   props: {
     msg: String
   }
