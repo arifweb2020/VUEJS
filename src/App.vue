@@ -6,7 +6,7 @@
   <Arif data="icc wtc" cmp="Datamatics"/>
   <ConditionalRender/>
   <ForLoop />
-  
+  <ButtonClick />
 
   </div>
 </template>
@@ -17,6 +17,7 @@ import Arif from './components/Arif.vue'
 import Header from './components/Header.vue'
 import ConditionalRender from './components/ConditionalRender.vue'
 import ForLoop from './components/ForLoop.vue'
+import ButtonClick from './components/ButtonClick.vue'
 
 export default {
   name: 'App',
@@ -25,7 +26,8 @@ export default {
     Header,
     Arif,
     ForLoop,
-    ConditionalRender
+    ConditionalRender,
+    ButtonClick
     
   }
 }
