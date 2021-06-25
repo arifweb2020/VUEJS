@@ -10,6 +10,7 @@
   <classStyleBind />
   <DataBinding />
   <Form />
+  <FetchApi />
 
   </div>
 </template>
@@ -24,6 +25,7 @@ import ButtonClick from './components/ButtonClick.vue'
 import classStyleBind from './components/classStyleBind.vue'
 import DataBinding from './components/DataBinding.vue'
 import Form from './components/Form.vue'
+import FetchApi from './components/FetchApi.vue'
 
 export default {
   name: 'App',
@@ -36,7 +38,8 @@ export default {
     ButtonClick,
     classStyleBind,
     DataBinding,
-    Form
+    Form,
+    FetchApi
     
   }
 }
