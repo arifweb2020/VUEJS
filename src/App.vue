@@ -11,6 +11,7 @@
   <DataBinding />
   <Form />
   <FetchApi />
+    <PostApi />
 
   </div>
 </template>
@@ -26,6 +27,7 @@ import classStyleBind from './components/classStyleBind.vue'
 import DataBinding from './components/DataBinding.vue'
 import Form from './components/Form.vue'
 import FetchApi from './components/FetchApi.vue'
+import PostApi from './components/PostApi.vue'
 
 export default {
   name: 'App',
@@ -39,7 +41,8 @@ export default {
     classStyleBind,
     DataBinding,
     Form,
-    FetchApi
+    FetchApi,
+    PostApi
     
   }
 }

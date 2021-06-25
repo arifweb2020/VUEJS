@@ -37,6 +37,7 @@ export default {
      methods: {
          login(e)
         {
+            e.preventDefault();
             this.loginForm.error=[];
             if(this.loginForm.username && this.loginForm.password){
                 console.log("no error")
@@ -48,7 +49,7 @@ export default {
                 this.error.push("password is required")
             }
             console.log("login data", this.loginForm.username , this.loginForm.password)
-            e.preventDefault();
+            
 
         }
     },
