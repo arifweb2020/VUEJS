@@ -7,6 +7,7 @@
   <ConditionalRender/>
   <ForLoop />
   <ButtonClick />
+  <classStyleBind />
 
   </div>
 </template>
@@ -18,6 +19,7 @@ import Header from './components/Header.vue'
 import ConditionalRender from './components/ConditionalRender.vue'
 import ForLoop from './components/ForLoop.vue'
 import ButtonClick from './components/ButtonClick.vue'
+import classStyleBind from './components/classStyleBind.vue'
 
 export default {
   name: 'App',
@@ -27,7 +29,8 @@ export default {
     Arif,
     ForLoop,
     ConditionalRender,
-    ButtonClick
+    ButtonClick,
+    classStyleBind
     
   }
 }
