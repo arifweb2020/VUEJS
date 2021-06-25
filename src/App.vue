@@ -9,6 +9,7 @@
   <ButtonClick />
   <classStyleBind />
   <DataBinding />
+  <Form />
 
   </div>
 </template>
@@ -22,6 +23,7 @@ import ForLoop from './components/ForLoop.vue'
 import ButtonClick from './components/ButtonClick.vue'
 import classStyleBind from './components/classStyleBind.vue'
 import DataBinding from './components/DataBinding.vue'
+import Form from './components/Form.vue'
 
 export default {
   name: 'App',
@@ -33,7 +35,8 @@ export default {
     ConditionalRender,
     ButtonClick,
     classStyleBind,
-    DataBinding
+    DataBinding,
+    Form
     
   }
 }
